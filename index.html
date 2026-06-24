@@ -1,0 +1,608 @@
+<link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-bracket">[</span>
+      <span class="logo-name">AJ</span>
+      <span class="logo-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#hero" class="nav-link">HOME</a></li>
+      <li><a href="#about" class="nav-link">ABOUT</a></li>
+      <li><a href="#skills" class="nav-link">SKILLS</a></li>
+      <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+      <li><a href="#experience" class="nav-link">EXP. & CERT</a></li>
+      <li><a href="#contact" class="nav-link">CONTACT</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <canvas id="bikeCanvas"></canvas>
+    <div class="hero-particles" id="heroParticles"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>AVAILABLE FOR INTERNSHIP</span>
+      </div>
+      <div class="hero-title-wrap">
+        <h1 class="hero-name">
+          <span class="name-first" data-text="AAKRITI">AAKRITI</span>
+          <span class="name-last" data-text="JAIN">JAIN</span>
+        </h1>
+        <div class="hero-role">
+          <span class="role-prefix"></span>
+          <span class="typed-role" id="typedRole"></span>
+          <span class="cursor-blink">_</span>
+        </div>
+      </div>
+
+      <!-- SPEEDOMETER -->
+      <div class="speedometer-wrap">
+        <canvas id="speedoCanvas" width="220" height="220"></canvas>
+        <div class="speedo-center">
+          <div class="speedo-speed" id="speedoNum">0</div>
+          <div class="speedo-unit">KM/H</div>
+        </div>
+      </div>
+
+      <div class="hero-tagline">
+        Fueled by <span class="hl">Code</span> &nbsp;|&nbsp; Driven by <span class="hl">AI</span> &nbsp;|&nbsp; Racing toward <span class="hl">Excellence</span>
+      </div>
+
+      <div style="margin-top: 80px;"></div>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">
+          <span class="btn-icon">⚡</span> VIEW PROJECTS
+        </a>
+        <a href="RESUME.pdf" download class="btn btn-outline">
+          <span class="btn-icon">↓</span> DOWNLOAD RESUME
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-val">9+</div>
+        <div class="stat-label">PROJECTS</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-val">12+</div>
+        <div class="stat-label">CERTIFICATIONS</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <div class="stat-val">B.TECH</div>
+        <div class="stat-label">CSE</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="section-header">
+      <div class="section-eyebrow">PROFILE</div>
+      <h2 class="section-title">ABOUT <span class="neon">ME</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card glass-card">
+        <div class="card-accent"></div>
+        <div class="about-avatar">
+          <div class="avatar-ring">
+            <div class="avatar-inner">AJ</div>
+          </div>
+          <div class="avatar-status">
+            <span class="status-dot"></span> Available
+          </div>
+        </div>
+        <div class="about-details">
+          <div class="detail-row">
+            <span class="detail-label">NAME</span>
+            <span class="detail-val">Aakriti Jain</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">LOCATION</span>
+            <span class="detail-val">Ghaziabad, India</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">DEGREE</span>
+            <span class="detail-val">B.Tech CSE (2025–2029)</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">EMAIL</span>
+            <span class="detail-val small">aakritijainmvemjsun2007@gmail.com</span>
+          </div>
+          <div class="detail-row">
+            <span class="detail-label">PHONE</span>
+            <span class="detail-val">+91 7217796591</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-bio glass-card">
+        <div class="card-accent"></div>
+        <div class="bio-icon">🏍️</div>
+        <h3 class="bio-head">THE MISSION</h3>
+        <p class="bio-text">
+          Just like the Kawasaki Ninja H2R breaks every limit on the track, I aim to break every barrier in the tech world. My mission is to become a skilled <span class="hl">Software Engineer</span> with deep expertise in <span class="hl">Artificial Intelligence</span> and <span class="hl">Machine Learning</span>.
+        </p>
+        <p class="bio-text">
+          I build intelligent, efficient software solutions, continuously push my technical skills to the redline, and contribute to innovative, technology-driven organizations.
+        </p>
+        <div class="bio-tags">
+          <span class="tag">AI/ML Enthusiast</span>
+          <span class="tag">Full-Stack Dev</span>
+          <span class="tag">Lifelong Learner</span>
+          <span class="tag">Campus Ambassador</span>
+        </div>
+      </div>
+
+      <!-- Dashboard Timeline -->
+      <div class="timeline-card glass-card">
+        <div class="card-accent"></div>
+        <h3 class="timeline-head">RACE LOG</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2023</div>
+            <div class="tl-info">
+              <div class="tl-title">Secondary (X)</div>
+              <div class="tl-sub">L.K. International — 89%</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-year">2025</div>
+            <div class="tl-info">
+              <div class="tl-title">Senior Secondary (XII)</div>
+              <div class="tl-sub">L.K. International — 75.8%</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot active"></div>
+            <div class="tl-year">2025-2029</div>
+            <div class="tl-info">
+              <div class="tl-title">B.Tech CSE</div>
+              <div class="tl-sub">IMS Engineering, Ghaziabad</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <div class="section-header">
+      <div class="section-eyebrow">PERFORMANCE SPECS</div>
+      <h2 class="section-title">SKILLS &amp; <span class="neon">ARSENAL</span></h2>
+    </div>
+
+    <div class="skills-dashboard">
+      <!-- RPM Gauges Row -->
+      <div class="gauges-row">
+        <div class="gauge-item">
+          <canvas id="gauge1" width="140" height="140"></canvas>
+          <div class="gauge-label">HTML/CSS</div>
+          <div class="gauge-val">92%</div>
+        </div>
+        <div class="gauge-item">
+          <canvas id="gauge2" width="140" height="140"></canvas>
+          <div class="gauge-label">JavaScript</div>
+          <div class="gauge-val">80%</div>
+        </div>
+        <div class="gauge-item">
+          <canvas id="gauge3" width="140" height="140"></canvas>
+          <div class="gauge-label">AI/ML</div>
+          <div class="gauge-val">75%</div>
+        </div>
+        <div class="gauge-item">
+          <canvas id="gauge4" width="140" height="140"></canvas>
+          <div class="gauge-label">C Programming</div>
+          <div class="gauge-val">85%</div>
+        </div>
+        <div class="gauge-item">
+          <canvas id="gauge5" width="140" height="140"></canvas>
+          <div class="gauge-label">Data Analysis</div>
+          <div class="gauge-val">78%</div>
+        </div>
+        <div class="gauge-item">
+          <canvas id="gauge6" width="140" height="140"></canvas>
+          <div class="gauge-label">Python</div>
+          <div class="gauge-val">80%</div>
+        </div>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid">
+        <div class="skill-category glass-card">
+          <div class="card-accent"></div>
+          <div class="skill-cat-icon">💻</div>
+          <h4 class="skill-cat-title">DEVELOPMENT</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">C Programming</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Full Stack</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card">
+          <div class="card-accent"></div>
+          <div class="skill-cat-icon">🤖</div>
+          <h4 class="skill-cat-title">AI &amp; ANALYTICS</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">AI Tools</span>
+            <span class="skill-tag">ChatGPT</span>
+            <span class="skill-tag">Gemini</span>
+            <span class="skill-tag">Claude</span>
+            <span class="skill-tag">Data Analysis</span>
+            <span class="skill-tag">Prompt Eng.</span>
+          </div>
+        </div>
+
+        <div class="skill-category glass-card">
+          <div class="card-accent"></div>
+          <div class="skill-cat-icon">☁️</div>
+          <h4 class="skill-cat-title">CLOUD &amp; TOOLS</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Cloud Computing</span>
+            <span class="skill-tag">DevOps</span>
+            <span class="skill-tag">Git/GitHub</span>
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">AutoCAD</span>
+          </div>
+        </div>
+        
+        <div class="skill-category glass-card">
+          <div class="card-accent"></div>
+          <div class="skill-cat-icon">📊</div>
+          <h4 class="skill-cat-title">PRODUCTIVITY</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">MS Excel</span>
+            <span class="skill-tag">MS Word</span>
+            <span class="skill-tag">PowerPoint</span>
+            <span class="skill-tag">VLOOKUP</span>
+            <span class="skill-tag">HLOOKUP</span>
+            <span class="skill-tag">Canva</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <div class="section-header">
+      <div class="section-eyebrow">TRACK RECORDS</div>
+      <h2 class="section-title">MY <span class="neon">PROJECTS</span></h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">🎂</div>
+          <div class="proj-date">Jun 2026</div>
+        </div>
+        <h3 class="proj-title">Age Calculator</h3>
+        <p class="proj-desc">A clean, fast age calculator showing exact age down to years, months & days — plus fun facts like total heartbeats and days until birthday.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/Age-calculator/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+      
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">🤝</div>
+          <div class="proj-date">jun 2026</div>
+        </div>
+        <h3 class="proj-title">Nayepankh NGO</h3>
+        <p class="proj-desc">A fully responsive, multi-section static website built to amplify social impact, streamline volunteer onboarding, and facilitate secure donations.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/nayepankhNGO/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">✅</div>
+          <div class="proj-date">Feb–Mar 2026</div>
+        </div>
+        <h3 class="proj-title">Task Manager</h3>
+        <p class="proj-desc">A production-grade, feature-rich task management application built with pure vanilla HTML, CSS & JS — zero frameworks, zero dependencies.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/NEXUS-Task-OS/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">🔐</div>
+          <div class="proj-date">Mar 2026</div>
+        </div>
+        <h3 class="proj-title">Password Generator</h3>
+        <p class="proj-desc">A clean, secure, and modern password generator built with vanilla HTML, CSS & JS. Generates strong passwords instantly.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/passforge/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">📝</div>
+          <div class="proj-date">Feb 2026</div>
+        </div>
+        <h3 class="proj-title">My Notes App</h3>
+        <p class="proj-desc">A minimal note-taking app — create, search, trash & restore notes. Data saved in localStorage — no login, no server needed.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/my-notes/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">🛒</div>
+          <div class="proj-date">Jan 2026</div>
+        </div>
+        <h3 class="proj-title">Premium E-Commerce Store</h3>
+        <p class="proj-desc">A fully responsive, multi-page e-commerce website built with pure HTML, CSS & JavaScript — no frameworks, no dependencies.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/vaultt/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">🎵</div>
+          <div class="proj-date">Dec 2025</div>
+        </div>
+        <h3 class="proj-title">Music Player</h3>
+        <p class="proj-desc">A sleek, dark-themed web music player with vinyl disc animation, playlist, search bar & full playback controls. Pure HTML/CSS/JS.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/groove-music-player/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+      
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">📩</div>
+          <div class="proj-date">May 2026</div>
+        </div>
+        <h3 class="proj-title">Portfolio</h3>
+        <p class="proj-desc">This website showcases my projects, skills, and journey as a developer. It's built to be fast, responsive, and visually appealing.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/portfolio/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+
+      <div class="proj-card glass-card">
+        <div class="proj-glow"></div>
+        <div class="proj-top">
+          <div class="proj-icon">🔢</div>
+          <div class="proj-date">Nov 2025</div>
+        </div>
+        <h3 class="proj-title">Calculator</h3>
+        <p class="proj-desc">A beautiful and fully functional calculator built with HTML, CSS & JavaScript with a sleek, modern interface.</p>
+        <div class="proj-tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+        <div class="proj-footer">
+          <a href="https://aakritijain30.github.io/my-calculator/" class="proj-link">LIVE ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience">
+    <div class="section-header">
+      <div class="section-eyebrow">RACE TRACK</div>
+      <h2 class="section-title">EXPERIENCE &amp; <span class="neon">CERTS</span></h2>
+    </div>
+
+    <div class="exp-layout">
+      <div class="exp-col">
+        <h3 class="exp-col-title">
+          <span class="col-icon">💼</span> WORK EXPERIENCE
+        </h3>
+
+        <div class="exp-item glass-card">
+          <div class="card-accent"></div>
+          <div class="exp-meta">
+            <span class="exp-company">Tata Group</span>
+            <span class="exp-date">Feb 2026</span>
+          </div>
+          <div class="exp-role">GenAI Powered Data Analytics — Job Simulation</div>
+          <p class="exp-desc">Performed data analysis using AI-based tools. Worked on business problem simulations and generated insights from structured datasets.</p>
+          <div class="exp-tags">
+            <span>GenAI</span><span>Data Analysis</span><span>AI Tools</span>
+          </div>
+        </div>
+
+        <div class="exp-item glass-card">
+          <div class="card-accent"></div>
+          <div class="exp-meta">
+            <span class="exp-company">EDC — IIT Delhi</span>
+            <span class="exp-date">JAN–FEB 2026</span>
+          </div>
+          <div class="exp-role">Campus Ambassador</div>
+          <p class="exp-desc">Promoted entrepreneurship initiatives, managed student outreach & event engagement, coordinated with team members for event execution.</p>
+          <div class="exp-tags">
+            <span>Leadership</span><span>Networking</span><span>Event Mgmt</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="exp-col">
+        <h3 class="exp-col-title">
+          <span class="col-icon">🏆</span> CERTIFICATIONS
+        </h3>
+        <div class="certs-grid">
+          <div class="cert-chip">Git & GitHub Bootcamp<span>LetsUpgrade · Feb '26</span></div>
+          <div class="cert-chip">Full Stack Web Dev<span>NoviTech R&D · Jan–Feb '26</span></div>
+          <div class="cert-chip">Full Stack Developer Career<span>WsCube Tech · Feb '26</span></div>
+          <div class="cert-chip">Clouds DevOps 2026<span>ULSA · Jan '26</span></div>
+          <div class="cert-chip">Gemini for Google<span>SIMPLILEARN · Jan '26</span></div>
+          <div class="cert-chip">Prompt Engineering<span>Vedam School · Jan '26</span></div>
+          <div class="cert-chip">AI for Beginners<span>Coursera · Dec '25</span></div>
+          <div class="cert-chip">Google Ads Basics<span>Coursera · Dec '25</span></div>
+          <div class="cert-chip">Azure Computer Vision<span>Microsoft · Dec '25</span></div>
+          <div class="cert-chip">Excel Formulas<span>Coursera · Dec '25–Jan '26</span></div>
+          <div class="cert-chip">Canva Presentations<span>Coursera · Dec '25</span></div>
+          <div class="cert-chip">AI Powered Manager<span>LinkedIn · Jan '25–Jan '26</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="section-header">
+      <div class="section-eyebrow">PIT STOP</div>
+      <h2 class="section-title">GET IN <span class="neon">TOUCH</span></h2>
+    </div>
+
+    <div class="contact-layout">
+      <div class="contact-info glass-card">
+        <div class="card-accent"></div>
+        <div class="contact-heading">
+          LET'S BUILD SOMETHING <span class="hl">FAST</span>
+        </div>
+        <p class="contact-sub">Open for internships, collaborations & exciting projects. Feel free to connect!</p>
+
+        <div class="contact-links">
+          <a href="mailto:aakritijainmvemjsun2007@gmail.com" class="contact-link">
+            <span class="clink-icon">✉</span>
+            <div>
+              <div class="clink-label">EMAIL</div>
+              <div class="clink-val">aakritijainmvemjsun2007@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+917217796591" class="contact-link">
+            <span class="clink-icon">📞</span>
+            <div>
+              <div class="clink-label">PHONE</div>
+              <div class="clink-val">+91 7217796591</div>
+            </div>
+          </a>
+          <a href="#" class="contact-link">
+            <span class="clink-icon">📍</span>
+            <div>
+              <div class="clink-label">LOCATION</div>
+              <div class="clink-val">Ghaziabad Sub-District, India</div>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/aakriti-jain-a90a13367" target="_blank" class="contact-link">
+            <span class="clink-icon">in</span>
+            <div>
+              <div class="clink-label">LINKEDIN</div>
+              <div class="clink-val">linkedin.com/in/aakriti-jain-a90a13367</div>
+            </div>
+          </a>
+          <a href="https://github.com/Aakritijain30" target="_blank" class="contact-link">
+            <span class="clink-icon">🐙</span>
+            <div>
+              <div class="clink-label">GITHUB</div>
+              <div class="clink-val">github.com/Aakritijain30</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form glass-card">
+        <div class="card-accent"></div>
+        <form id="contactForm">
+          <div class="form-group">
+            <label class="form-label">NAME</label>
+            <input type="text" class="form-input" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">EMAIL</label>
+            <input type="email" class="form-input" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">SUBJECT</label>
+            <input type="text" class="form-input" placeholder="What's this about?" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">MESSAGE</label>
+            <textarea class="form-input form-textarea" placeholder="Let's talk" rows="4" required></textarea>
+          </div>
+          <a href="#" id="mailtoBtn" class="btn btn-primary full-width">
+            <span>⚡ SEND MESSAGE</span>
+          </a>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="success-icon">✅</div>
+          <div class="success-text">MESSAGE TRANSMITTED!</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-bracket">[</span>
+        <span class="logo-name">Aakriti Jain</span>
+        <span class="logo-bracket">]</span>
+      </div>
+      <div class="footer-text">
+        Designed &amp; Built by <span class="hl">Aakriti Jain</span>
+      </div>
+      <div class="footer-copy">© 2026 · ALL RIGHTS RESERVED · REDLINE ACHIEVED 🏍️</div>
+    </div>
+    <div class="footer-track">
+      <div class="track-line"></div>
+      <div class="track-bike" id="footerBike">🏍️</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
